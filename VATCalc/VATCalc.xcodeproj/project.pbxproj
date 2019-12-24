@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE474F0217E00A800479BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE474EF217E00A800479BBB /* AppDelegate.swift */; };
+		CEE474F2217E00A800479BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE474F1217E00A800479BBB /* ViewController.swift */; };
+		CEE474F5217E00A800479BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE474F3217E00A800479BBB /* Main.storyboard */; };
+		CEE474F7217E00A800479BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE474F6217E00A800479BBB /* Assets.xcassets */; };
+		CEE474FA217E00A800479BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE474F8217E00A800479BBB /* LaunchScreen.storyboard */; };
+		CEE47505217E00A800479BBB /* VATCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE47504217E00A800479BBB /* VATCalcTests.swift */; };
+		CEE47510217E00A900479BBB /* VATCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4750F217E00A900479BBB /* VATCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE47501217E00A800479BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE474E4217E00A800479BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE474EB217E00A800479BBB;
+			remoteInfo = VATCalc;
+		};
+		CEE4750C217E00A900479BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE474E4217E00A800479BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE474EB217E00A800479BBB;
+			remoteInfo = VATCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE474EC217E00A800479BBB /* VATCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VATCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE474EF217E00A800479BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE474F1217E00A800479BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE474F4217E00A800479BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE474F6217E00A800479BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE474F9217E00A800479BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE474FB217E00A800479BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE47500217E00A800479BBB /* VATCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VATCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE47504217E00A800479BBB /* VATCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VATCalcTests.swift; sourceTree = "<group>"; };
+		CEE47506217E00A800479BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE4750B217E00A900479BBB /* VATCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VATCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4750F217E00A900479BBB /* VATCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VATCalcUITests.swift; sourceTree = "<group>"; };
+		CEE47511217E00A900479BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE474E9217E00A800479BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE474FD217E00A800479BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE47508217E00A900479BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE474E3217E00A800479BBB = {
+			isa = PBXGroup;
+			children = (
+				CEE474EE217E00A800479BBB /* VATCalc */,
+				CEE47503217E00A800479BBB /* VATCalcTests */,
+				CEE4750E217E00A900479BBB /* VATCalcUITests */,
+				CEE474ED217E00A800479BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE474ED217E00A800479BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE474EC217E00A800479BBB /* VATCalc.app */,
+				CEE47500217E00A800479BBB /* VATCalcTests.xctest */,
+				CEE4750B217E00A900479BBB /* VATCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE474EE217E00A800479BBB /* VATCalc */ = {
+			isa = PBXGroup;
+			children = (
+				CEE474EF217E00A800479BBB /* AppDelegate.swift */,
+				CEE474F1217E00A800479BBB /* ViewController.swift */,
+				CEE474F3217E00A800479BBB /* Main.storyboard */,
+				CEE474F6217E00A800479BBB /* Assets.xcassets */,
+				CEE474F8217E00A800479BBB /* LaunchScreen.storyboard */,
+				CEE474FB217E00A800479BBB /* Info.plist */,
+			);
+			path = VATCalc;
+			sourceTree = "<group>";
+		};
+		CEE47503217E00A800479BBB /* VATCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE47504217E00A800479BBB /* VATCalcTests.swift */,
+				CEE47506217E00A800479BBB /* Info.plist */,
+			);
+			path = VATCalcTests;
+			sourceTree = "<group>";
+		};
+		CEE4750E217E00A900479BBB /* VATCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4750F217E00A900479BBB /* VATCalcUITests.swift */,
+				CEE47511217E00A900479BBB /* Info.plist */,
+			);
+			path = VATCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE474EB217E00A800479BBB /* VATCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE47514217E00A900479BBB /* Build configuration list for PBXNativeTarget "VATCalc" */;
+			buildPhases = (
+				CEE474E8217E00A800479BBB /* Sources */,
+				CEE474E9217E00A800479BBB /* Frameworks */,
+				CEE474EA217E00A800479BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VATCalc;
+			productName = VATCalc;
+			productReference = CEE474EC217E00A800479BBB /* VATCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE474FF217E00A800479BBB /* VATCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE47517217E00A900479BBB /* Build configuration list for PBXNativeTarget "VATCalcTests" */;
+			buildPhases = (
+				CEE474FC217E00A800479BBB /* Sources */,
+				CEE474FD217E00A800479BBB /* Frameworks */,
+				CEE474FE217E00A800479BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE47502217E00A800479BBB /* PBXTargetDependency */,
+			);
+			name = VATCalcTests;
+			productName = VATCalcTests;
+			productReference = CEE47500217E00A800479BBB /* VATCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE4750A217E00A900479BBB /* VATCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE4751A217E00A900479BBB /* Build configuration list for PBXNativeTarget "VATCalcUITests" */;
+			buildPhases = (
+				CEE47507217E00A900479BBB /* Sources */,
+				CEE47508217E00A900479BBB /* Frameworks */,
+				CEE47509217E00A900479BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE4750D217E00A900479BBB /* PBXTargetDependency */,
+			);
+			name = VATCalcUITests;
+			productName = VATCalcUITests;
+			productReference = CEE4750B217E00A900479BBB /* VATCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE474E4217E00A800479BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = bsmrstu;
+				TargetAttributes = {
+					CEE474EB217E00A800479BBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CEE474FF217E00A800479BBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEE474EB217E00A800479BBB;
+					};
+					CEE4750A217E00A900479BBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEE474EB217E00A800479BBB;
+					};
+				};
+			};
+			buildConfigurationList = CEE474E7217E00A800479BBB /* Build configuration list for PBXProject "VATCalc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE474E3217E00A800479BBB;
+			productRefGroup = CEE474ED217E00A800479BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE474EB217E00A800479BBB /* VATCalc */,
+				CEE474FF217E00A800479BBB /* VATCalcTests */,
+				CEE4750A217E00A900479BBB /* VATCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE474EA217E00A800479BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE474FA217E00A800479BBB /* LaunchScreen.storyboard in Resources */,
+				CEE474F7217E00A800479BBB /* Assets.xcassets in Resources */,
+				CEE474F5217E00A800479BBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE474FE217E00A800479BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE47509217E00A900479BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE474E8217E00A800479BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE474F2217E00A800479BBB /* ViewController.swift in Sources */,
+				CEE474F0217E00A800479BBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE474FC217E00A800479BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE47505217E00A800479BBB /* VATCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE47507217E00A900479BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE47510217E00A900479BBB /* VATCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE47502217E00A800479BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE474EB217E00A800479BBB /* VATCalc */;
+			targetProxy = CEE47501217E00A800479BBB /* PBXContainerItemProxy */;
+		};
+		CEE4750D217E00A900479BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE474EB217E00A800479BBB /* VATCalc */;
+			targetProxy = CEE4750C217E00A900479BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE474F3217E00A800479BBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE474F4217E00A800479BBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE474F8217E00A800479BBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE474F9217E00A800479BBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE47512217E00A900479BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE47513217E00A900479BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE47515217E00A900479BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VATCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = author.linkon.VATCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE47516217E00A900479BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VATCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = author.linkon.VATCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE47518217E00A900479BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VATCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = author.linkon.VATCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VATCalc.app/VATCalc";
+			};
+			name = Debug;
+		};
+		CEE47519217E00A900479BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VATCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = author.linkon.VATCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VATCalc.app/VATCalc";
+			};
+			name = Release;
+		};
+		CEE4751B217E00A900479BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VATCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = author.linkon.VATCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VATCalc;
+			};
+			name = Debug;
+		};
+		CEE4751C217E00A900479BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VATCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = author.linkon.VATCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VATCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE474E7217E00A800479BBB /* Build configuration list for PBXProject "VATCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE47512217E00A900479BBB /* Debug */,
+				CEE47513217E00A900479BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE47514217E00A900479BBB /* Build configuration list for PBXNativeTarget "VATCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE47515217E00A900479BBB /* Debug */,
+				CEE47516217E00A900479BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE47517217E00A900479BBB /* Build configuration list for PBXNativeTarget "VATCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE47518217E00A900479BBB /* Debug */,
+				CEE47519217E00A900479BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE4751A217E00A900479BBB /* Build configuration list for PBXNativeTarget "VATCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4751B217E00A900479BBB /* Debug */,
+				CEE4751C217E00A900479BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE474E4217E00A800479BBB /* Project object */;
+}
